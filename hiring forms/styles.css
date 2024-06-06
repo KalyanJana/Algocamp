@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #f4f4f4; */
+    background-color: #fff;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+ /* utility class start*/
+.required{
+    margin-left: 0.2rem;
+    color: red;
+}
+
+.container{
+    max-width: 900px;
+    width: 80%;
+    margin: 1rem auto;
+
+ }
+ .heading{
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    padding: 2rem 0rem;
+    /* text-shadow: 0 0 1px rgba(0, 0, 0, 0);  */
+    opacity: 0.5; /* Adjust the opacity value as needed */
+}
+.low{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    display: block;
+    margin: 4rem auto;
+}
+ 
+ /* utility class  end*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    /* padding: 0.1rem 0rem; */
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+.designation{
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+    padding: 2.5rem 0rem;
+    opacity: 0.9;
+    margin-top: 50px;
+}
+.location, .work-mode{
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+    padding: 0.5rem 0rem;
+}
+
+.form-information{
+    background-color: #f9f9f9;
+    padding: 3rem 0rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    gap: 1rem;
+}
+
+.form-input{
+    padding: 0.7rem 1rem;
+    border: 1px solid rgb(182, 179, 179);
+    outline: none;
+    background-color: #fff;
+}
+.form-input:focus{
+    border-color: rgb(36, 32, 32); /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
+.checkbox-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    padding: 0.5rem 0rem;
+}
+
+.checkbox-item{
+    width: 33%;
+    padding: 1rem 0.5rem;
+    /* border: 1px solid red; */
+}
+.form-group-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    gap: 1rem;
+}
+.checkbox-language{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.radio-button-item{
+    padding: 0.7rem 1.5rem;
+}
+.select-option{
+    padding: 0.5rem 1rem;
+    background-color: #e2e2e2;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}
+.select-option:hover{
+    background-color:  #a5a4a3c0;
+}
+
+#experience{
+    padding: 0.5rem;
+    margin: 0.5rem 1rem;
+    outline: none;
+}
+.footer{
+    text-align: center;
+    background-color: #edeef1;
+    color: #7f838a;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.job-offered-by{
+    text-decoration: none;
+    color: gray;
+}
+.home-page{
+    color: #579eee;;
+}
+
+ /* input file style start */
+.file-input-wrapper {
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e2e2e2;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.file-input-label:hover {
+    background-color: #a5a4a3c0;
+}
+
+.attachment-symbol {
+    margin-right: 10px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.file-input-placeholder {
+    margin-left: 10px;
+    color: #999;
+}
+
+ /* input file style end  */
+
+
+ @media screen and (min-width: 700px) {
+
+    .form-group{
+        flex-direction: row;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+        /* border: 1px solid red; */
+    }
+    .form-lable, .checkbox-label{
+        width: 30%;
+        /* border: 1px solid red; */
+        /* align-self: center; */
+    }
+    .form-input, .checkbox-input{
+        width: 70%;
+        /* border: 1px solid red; */
+    }
+  }

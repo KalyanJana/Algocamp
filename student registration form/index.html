@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <h1>This is a student Registration Form Project using simply HTML.</h1>
+        
+        <hr>
+        
+    </header>
+
+    <main>
+        <h3>Student Registration Form</h3>
+    
+        
+        <p>Please fill out the form below to register.</p> <hr>
+
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname"><br><br>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname"><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"><br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="Female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <label for="other">Other</label><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email"><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone"><br><br><br>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Address Information</legend>
+
+                <label for="address">Address:</label><br>
+                <textarea name="address" id="address" rows="4" cols="50"></textarea><br><br>
+
+                <label for="city">City:</label>
+                <input type="text" name="city"><br><br>
+
+                <label for="state">State:</label>
+                <input type="text" name="state"><br><br>
+
+                <label for="pincode">ZIP Code:</label>
+                <input type="text" name="pincode"><br><br>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Educational Information</legend>
+
+                <label for="highschool">High School:</label>
+                <input type="text" name="highschool"><br><br>
+
+                <label for="gpa">GPA:</label>
+                <input type="text" name="gpa"><br><br>
+
+                <label for="highschool">Intended Major:</label>
+                <input type="text" name="highschool"><br><br>
+
+                <label for="yearofgraduation">Year of Graduation:</label>
+                <input type="text" name="yearofgraduation"><br><br>
+            </fieldset>
+
+            <hr>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <label for="interest-and-hobbies">Interest and Hobbies:</label><br>
+                <textarea name="interest-and-hobbies" id="interest-and-hobbies" rows="4" cols="50"></textarea><br><br>
+
+                <label for="additional-comments">Additional Comments:</label><br>
+                <textarea name="additional-comments" id="additional-commentss" rows="4" cols="50"></textarea><br><br>
+            </fieldset>
+
+            <hr>
+
+            <input type="button" value="Register">
+            <hr>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Student Registration. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

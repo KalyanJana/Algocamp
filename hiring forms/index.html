@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1  class="container">O Palantir</h1>
+      </header>
+
+      <main >
+        <div class="job-information container">
+          <h1 class="designation">Software Engineer - Frontend Developer Productivity</h1>
+          <p class="location">Seattle, WA</p>
+          <p class="work-mode">Dev / Full-Time / Hybrid</p>
+        </div>
+
+        <form action="" class="form-information">
+          <h2 class="container heading">SUBMIT YOUR APPLICATION</h2>
+          <div class="form-group container">
+            <label for="resume" class="form-lable">Resume/CV <span class="required">*</span></label>
+            <div class="file-input-wrapper form-user-response">
+              <input
+                type="file"
+                id="resume"
+                name="resume"
+                class="file-input"
+                required
+              />
+              <label for="resume" class="file-input-label">
+                <span class="attachment-symbol">&#128206;</span>
+                <span class="file-input-placeholder">ATTACH RESUME/CV</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group container">
+            <label for="fullname" class="form-lable">Full name<span class="required">*</span></label>
+            <input type="text" name="fullname" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="pronouns" class="checkbox-label">Pronouns</label>
+            <div class="checkbox-input">
+              <div class="checkbox-group">
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="He/him"/>
+                  <label for="hehim"> He/him</label>
+                </div>
+              </div>
+              <hr>
+              <div class="checkbox-group">
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="Use name only"/>
+                  <label for="hehim">Use name only</label>
+                </div>
+              </div>
+              <hr>
+              <div class="checkbox-group">
+                <div class="checkbox-item">
+                  <input type="checkbox" id="hehim" name="pronouns" value="Custom"/>
+                  <label for="hehim">Custom</label>
+                </div>
+              </div>
+              <p>How would you like us to refer to you? Let us konow what pronouns you use.</p>
+            </div>
+
+          </div>
+
+          <div class="form-group container">
+            <label for="email" class="form-lable">Email<span class="required">*</span></label>
+            <input type="text" name="email" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="phone" class="form-lable">Phone</label>
+            <input type="text" name="phone" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="current-location" class="form-lable">Current location<span class="required">*</span></label>
+            <input type="text" name="current-location" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="current-company" class="form-lable">Current company</label>
+            <input type="text" name="current-company" class="form-input"/>
+          </div>
+
+          <h2 class="container heading">LINKS</h2>
+
+          <div class="form-group container">
+            <label for="linkedin-url" class="form-lable">LinkedIn URL</label>
+            <input type="text" name="linkedin-url" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="github-url" class="form-lable">GitHub URL</label>
+            <input type="text" name="github-url" class="form-input"/>
+          </div>
+
+          <div class="form-group container">
+            <label for="portfolio-url" class="form-lable">Portfolio URL</label>
+            <input type="text" name="portfolio-url" class="form-input"/>
+          </div>
+
+          <h2 class="container heading">SUPPLEMENTARY QUESTIONS</h2>
+
+          <div class="form-group-2 container">
+            <label for="languages">Language Skill(s) (Check all that apply)<span class="required">*</span></label>
+            <div class="checkbox-language">
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="English(ENG)" name="languages" value="English(ENG)"/>
+                <label for="English(ENG)"> English(ENG)</label>
+              </div>
+              <div>
+                <input type="checkbox" id="other" name="languages" value="other"/>
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group-2 container">
+            <label for="preferred-name">Preferred Name | What would you like us to call you?
+            </label>
+            <input type="text" name="preferred-name" class="form-input" placeholder="Type your response"/>
+          </div>
+
+          <div class="form-group-2 container">
+            <label for="name-pronunciation">Name Pronunciation | How do you pronounce your name?
+            </label>
+            <input type="text" name="name-pronunciation" class="form-input" placeholder="Type your response"/>
+          </div>
+
+          <h2 class="container heading">WORK AUTHORIZATION</h2>
+
+          <div class="form-group-2 container">
+            <label for="authorize">Are you legally authorized to work in the country for which you are applying? <span class="required">*</span></label>
+            <div class="radio-button-item">
+              <input type="radio" name="authorize" id="authorize-yes" value="yes">
+              <label for="authorize-yes">Yes</label>
+            </div>
+            <div class="radio-button-item">
+              <input type="radio" name="authorize" id="authorize-no" value="yes">
+              <label for="authorize-no">No</label>
+            </div>
+          
+          </div>
+
+          <div class="form-group-2 container">
+            <label for="has-H-1B-visa">Will you now or in the future require sponsorship for employment visa status (e.g., H-1B, etc.)?<span class="required">*</span></label>
+            <div class="radio-button-item">
+              <input type="radio" name="has-H-1B-visa" id="has-H-1B-visa-yes" value="yes">
+              <label for="has-H-1B-visa-yes">Yes</label>
+            </div>
+            <div class="radio-button-item">
+              <input type="radio" name="has-H-1B-visa" id="has-H-1B-visa-no" value="yes">
+              <label for="has-H-1B-visa-no">No</label>
+            </div>
+          
+          </div>
+
+          <h2 class="container heading">UNIVERSITY</h2>
+          <div class="form-group-2 container">
+              <label for="university">Which university are you currently attending or did you last attend? Please select "Other (School Not Listed)" if your school is not listed.<span class="required">*</span></label>
+            <select name="university" id="university" class="select-option">
+              <option value="select..." selected>select...</option>
+              <option value="Aalborg University">Aalborg University</option>
+              <option value="Aalborg University">Aalborg University</option>
+              <option value="Aalborg University">Aalborg University</option>
+              <option value="Aalborg University">Aalborg University</option>
+              <option value="Aalborg University">Aalborg University</option>
+            </select>
+          </div>
+
+          <h2 class="container heading">HOW DID YOU HEAR ABOUT THIS OPPORTUNITY?</h2>
+          <div class="form-group-2 container">
+              <label for="referral-source">Please tell us how you heard about this opportunity.<span class="required">*</span></label>
+              <select name="referral-source" id="referral-source" class="select-option">
+                <option value="select..." selected>select...</option>
+                <option value="Agency or Non-Palantir Recruiter">Agency or Non-Palantir Recruiter</option>
+                <option value="Glassdoor">Glassdoor</option>
+                <option value="Campus Ambassador">Campus Ambassador</option>
+                <option value="Friend or Family">Friend or Family</option>
+                <option value="other">Other</option>
+              </select>
+          </div>
+
+          <h2 class="container heading">SOFTWARE ENGINEER - FRONTEND DEVELOPER PRODUCTIVITY CUSTOM QUESTION
+          </h2>
+          <div class="form-group-2 container">
+            <p>Describe your experience with frontend build tooling, and/or a way you improved the developer productivity in your most recent role.</p>
+              <textarea class="textarea" name="experience" id="experience" rows="6"></textarea>
+          </div>
+
+          <h2 class="container heading">RELEVANT EXPERIENCE</h2>
+          <div class="form-group-2 container">
+              <label for="experience">How many years of relevant, post college work experience do you have?<span class="required">*</span></label>
+              <select name="experience" id="university" class="select-option">
+                <option value="select..." selected>select...</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="10+">10+</option>
+              </select>
+          </div>
+
+          <h2 class="container heading">ADDITIONAL QUESTIONS
+          </h2>
+          <div class="form-group-2 container">
+            <p>What has been your favorite project or proudest accomplishment? Why?</p>
+              <textarea class="textarea" name="experience" id="experience" rows="6"></textarea>
+          </div>
+          <div class="form-group-2 container">
+            <p>Why do you want to work at Palantir?</p>
+              <textarea class="textarea" name="experience" id="experience" rows="6"></textarea>
+          </div>
+
+          <h2 class="container heading">PALANTIR IS COMMITTED TO MAKING THE JOB APPLICATION PROCESS ACCESSIBLE TO EVERYONE. IF YOU ARE LIVING WITH A DISABILITY (VISIBLE OR NOT VISIBLE) AND NEED TO REQUEST A REASONABLE ACCOMMODATION FOR ANY PART OF THE APPLICATION OR HIRING PROCESS, PLEASE REACH OUT TO ACCOMMODATIONS@PALANTIR.COM AND LET US KNOW HOW WE CAN HELP.</h2>
+
+          <div class="form-group-2 container">
+            <h2 class="heading">ADDITIONAL INFORMATION</h2>
+              <textarea class="textarea" name="experience" id="experience" rows="6" placeholder="Add a cover letter or anything elase you want to share"></textarea>
+          </div>
+
+          <h2 class="container heading">U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION  <span class="low">(Completion is voluntary and will not subject you to adverse treatment)</span></h2>
+          <p class="container">Palantir provides equal employment and affirmative action opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability.</p>
+          <p class="container">Palantir is a federal contractor or subcontractor subject to certain governmental recordkeeping and reporting requirements for the administration of civil right laws and regulations. Employment decisions are made on the basis of job-related criteria without regard to race, ethnicity, color, religion, sex, sexual orientation, gender identity, marital status, age, genetic information, national origin, disability, military, or veteran status, or any other classification protected by applicable law.</p>
+          <p class="container">We invite all applicants to voluntarily self-identify their race, ethnicity, and gender. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment. Information obtained will be retained in a confidential file and separate from personnel records. This information may only be used in accordance with the provision of applicable federal laws, executive orders, and regulations. If you want more information about any of the sections, please check with a company representative.</p>
+
+          <div class="form-group container">
+            <label for="gender" class="form-lable">Gender</label>
+            <select name="gender" id="university" class="select-option form-input">
+              <option value="select..." selected>select...</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Decline to self-identify">Decline to self-identify</option>
+            </select>
+          </div>
+
+          <div class="form-group container">
+            <label for="race" class="form-lable">Race</label>
+            <select name="race" id="university" class="select-option form-input">
+              <option value="select..." selected>select...</option>
+              <option value="Hispanic or Latino">Hispanic or Latino</option>
+              <option value="Asian (NOt Hispanic or Latino)">Asian (NOt Hispanic or Latino)</option>
+              <option value="Decline to self-identify">Decline to self-identify</option>
+            </select>
+          </div>
+
+
+          <hr class="container">
+
+          <h2 class="container heading">SELF-IDENTIFICATION OF VETERAN STATUS   <span class="low">(Completion is voluntary and will not subject you to adverse treatment)</span></h2>
+          <p class="container">Palantir is a Government contractor subject to the Section 4212 of the Vietnam Era Veterans’ Readjustment Assistance Act of 1974, as amended by the Jobs for Veterans Act of 2002, which requires Government contractors to take affirmative action to employ and advance in employment: (1) Disabled veterans – A veteran who served on active duty in the U.S. military and is entitled to disability compensation (or who but for the receipt of military retired pay would be entitled to disability compensation) under laws administered by the Secretary of Veterans Affairs, or was discharged or released from active duty because of a service-connected disability; (2) Recently separated veteran – A veteran separated during the three-year period beginning on the date of the veteran's discharge or release from active duty in the U.S military, ground, naval, or air service; (3) Active duty wartime or campaign badge veteran – A veteran who served on active duty in the U.S. military during a war, or in a campaign or expedition for which a campaign badge was authorized under the laws administered by the Department of Defense; (4) Armed forces service medal veteran – A veteran who, while serving on active duty in the U.S. military ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985 (61 Fed. Reg. 1209). If you believe that you belong to any of the categories of protected veterans, please indicate by making the appropriate selection.</p>
+
+          <div class="form-group container">
+            <label for="veteran-status" class="form-lable">Veteran status</label>
+            <select name="veteran-status" id="university" class="select-option form-input">
+              <option value="select..." selected>select...</option>
+              <option value="I identity as one or more of the classifications of proted veteran listed above ">I identity as one or more of the classifications of proted veteran listed above</option>
+              <option value="I am not a procted veteran">I am not a procted veteran</option>
+              <option value="I Decline to self-identify for protected veteran status">I Decline to self-identify for protected veteran status</option>
+            </select>
+          </div>
+
+          <hr class="container">
+
+          <h2 class="container heading">ADDITIONAL QUESTIONS
+          </h2>
+
+          <p class="container"> Form CC-305 / OMB Control Number 1250-0005 / Expires 04/30/2026</p>
+
+          <h4 class="container">Why are you being asked to complete this form?</h4>
+          <p class="container">We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.</p>
+          <p class="container">Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.</p>
+
+          <h4 class="container">How do you know if you have a disability?</h4>
+          <p class="container">A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:</p>
+
+          <ul class="container">
+            <li>Alcohol or other substance use disorder (not currently using drugs illegally)</li>
+          </ul>
+
+          <div class="form-group container">
+            <label for="disability" class="form-lable">Disability status</label>
+            <select name="disability" id="disability" class="select-option form-input">
+              <option value="select..." selected>select...</option>
+              <option value="Yes, I have a disability, or yave had one in the past">Yes, I have a disability, or yave had one in the past</option>
+              <option value="No, I do not have a disability and have not had one in the past">"No, I do not have a disability and have not had one in the past</option>
+              <option value="I do not want to answer">I do not want to answer</option>
+            </select>
+          </div>
+
+          <h2 class="container heading">PUBLIC BURDEN STATEMENT: <span class="low">According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.</span>
+          </h2>
+
+          <div class="form-group container">
+            <label for="name" class="form-lable">Name</label>
+              <input type="text" name="name" class="form-input" placeholder="Enter your full name"/>
+          </div>
+          <div class="form-group container">
+            <label for="date" class="form-lable">Date</label>
+              <input type="text" name="date" class="form-input" placeholder="MM/DD/YYYY"/>
+          </div>
+          <p class="container">Note: Name and date are only required if you filled out Disability status.</p>
+
+          <button class="btn">SUBMIT APPLICATION</button>
+        </form>
+
+        <footer class="footer">
+          <a class="home-page" href="">Palantir Technologies Home Page</a>
+          <a class="job-offered-by" href="">Jobs powered by LEVER</a> 
+        </footer>
+
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
