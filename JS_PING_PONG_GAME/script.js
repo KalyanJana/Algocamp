@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let intervalId
     let gameSpeed = 100
 
-    let dx = cellSize
+    let dx = cellSize  
     let dy = 0
 
     const randommYDirection = [-2.5, 1, 0, -1.5, 1.5, 0, 1, 2.5 , 3, 0, -3];
