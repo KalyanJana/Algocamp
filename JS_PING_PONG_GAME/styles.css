@@ -18,6 +18,19 @@ body{
     background-color: antiquewhite;
     text-align: center;
 }
+#round-container{
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(247, 134, 93);
+    padding:  1rem;
+    border-radius: 5px;
+}
+#round{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 0.3rem;
+    border: none;
+}
 
 #score-board {
     display: flex;

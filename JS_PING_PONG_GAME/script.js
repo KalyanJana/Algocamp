@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function resetGame(){
-        console.log("reset is calling...")
+        // console.log("reset is calling...")
         const startButton = document.querySelector('#start-button');
         startButton.style.display = 'block'; 
 
@@ -114,8 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function drawBarAndBall(){
-        gameArena.innerHTML = ''; //clear the game arena //wipe out everything and redraw with new positions
-        console.log('draw calling...')
+        gameArena.innerHTML = ''; //wipe out everything and redraw with new positions
         const leftBarDiv = drawDiv(leftBarPosition.x, leftBarPosition.y, 'bar')
         gameArena.appendChild(leftBarDiv)
 
@@ -190,14 +189,14 @@ document.addEventListener("DOMContentLoaded", function () {
             const { rightWall, leftWall, topWall, bottomWall } = isBallHitingWalls();
 
             if(isBallHitingLeftBar()){
-                console.log("Ball hit left bar...")
+                // console.log("Ball hit left bar...")
                 isRightBarMove = true
                 isLeftBarMove = false
                 dx = cellSize   //change horizontal direction
                 dy = randomDyGenerate() //Random vertical direction
             }
             if(isBallHitingRightBar()){
-                console.log("Ball hit right bar...")
+                // console.log("Ball hit right bar...")
                 isRightBarMove = false
                 isLeftBarMove = true
                 dx = -cellSize
@@ -232,6 +231,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if(!gameStarted){
             gameStarted = true
             document.addEventListener("keydown", moveBars);
+            const roundEle = document.getElementById('round')
+            gameRound = isNaN(Number(roundEle.value)) ? 5 : Number(roundEle.value)
+            // console.log("gameround,", gameRound)
             gameLoop()
         }
 
@@ -240,6 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function initiateGame() {
         drawScoreboard();
         drawBarAndBall();
+
         const startBtn = document.getElementById("start-button");
         startBtn.addEventListener("click", function startGame() {
             startBtn.style.display = 'none'
